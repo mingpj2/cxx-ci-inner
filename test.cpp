@@ -9,6 +9,9 @@
     #define BLD_HASH "<unknown>"
 #endif
 
+#warning "BLD_NUM" BLD_NUM 
+#warning "BLD_HASH" BLD_HASH 
+
 int main(int argc, char *argv[])
 {
   printf("Hello travis tester updated build number %d hash %s !\n", 
